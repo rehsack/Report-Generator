@@ -12,6 +12,7 @@ my $builder = Module::Build->new(
 	'DBD::CSV'              => '0.30',
 	'DBD::Sys'              => '0.102',
 	'File::Copy'            => 0,
+	'File::Path'            => 0,
 	'Template'              => '2.00',
 	'Template::Plugin::CSV' => '0',
 	'Template::Plugin::DBI' => '2.65',
