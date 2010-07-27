@@ -57,7 +57,7 @@ sub new
     }
 
     defined( _HASH($attr) ) and defined( $attr->{cfg} )
-      or croak("$proto->new({cfg=>'path/to/config'})");
+      or croak("$proto->new({cfg => 'path/to/config'})");
 
     my $self = bless( $attr, $proto );
 
