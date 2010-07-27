@@ -11,6 +11,7 @@ WriteMakefile
                            'DBD::CSV' => '0.30',
                            'DBD::Sys' => '0.102',
                            'File::Copy' => 0,
+                           'File::Path' => 0,
                            'File::ShareDir' => '1.00',
                            'Params::Util' => '1.00',
                            'Template' => '2.00',
