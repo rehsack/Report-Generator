@@ -17,7 +17,7 @@ Report::Generator::Render::TT2 - class for rendering reports using TT2
 
 =cut
 
-$VERSION = '0.001';
+$VERSION = '0.002';
 @ISA     = qw(Report::Generator::Render);
 
 =head1 SYNOPSIS
@@ -90,7 +90,7 @@ sub new
         }
         push(
               @{ $config->{INCLUDE_PATH} },
-              File::Spec->catdir( File::ShareDir::dist_dir('Report-Generator'), 'tt2' )
+              File::Spec->catdir( File::ShareDir::dist_dir('Report-Generator') )
             );
     }
 

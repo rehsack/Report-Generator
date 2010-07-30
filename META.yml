@@ -24,13 +24,13 @@ name: Report-Generator
 provides:
   Report::Generator:
     file: lib/Report/Generator.pm
-    version: 0.001
+    version: 0.002
   Report::Generator::Render:
     file: lib/Report/Generator/Render.pm
-    version: 0.001
+    version: 0.002
   Report::Generator::Render::TT2:
     file: lib/Report/Generator/Render/TT2.pm
-    version: 0.001
+    version: 0.002
 requires:
   Carp: 0
   Config::Any: 0
@@ -38,4 +38,4 @@ requires:
   Params::Util: 1.00
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.001
+version: 0.002

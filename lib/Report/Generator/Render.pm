@@ -11,7 +11,7 @@ Report::Generator::Render - base class for rendering reports
 
 =cut
 
-our $VERSION = '0.001';
+our $VERSION = '0.002';
 
 =head1 SYNOPSIS
 
